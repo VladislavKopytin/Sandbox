@@ -1,3 +1,5 @@
+"use strict"
+
 function removeFromRight(src, removable) {
 	let halfLength = parseInt(src.length / 2);
     let result = src.slice(0, halfLength + 1);

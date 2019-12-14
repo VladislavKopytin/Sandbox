@@ -1,3 +1,5 @@
+"use strict"
+
 function isEqual(lhs, rhs) {
     for (let field in lhs) {
         if (typeof(lhs[field]) === "object") {
